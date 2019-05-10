@@ -1,0 +1,50 @@
+---
+title: "Protmūšio šablonas"
+subtitle: "⚔<br/>"
+author: "Proelium Cerebri"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+# Klausimas 1
+
+```{r, echo = FALSE}
+
+library(countdown)
+
+countdown(minutes = 0, seconds = 60, top = 0)
+
+```
+
+Sima labai greitai keliaus į Los Angeles. Tačiau ji žada daug keliauti ir nelikti tik Kalifornijoje.
+
+```{r, echo = FALSE, out.height = 300}
+
+knitr::include_graphics("template_files/IMG_20180728_131938.jpg")
+
+```
+
+.footnote.red[Kiek valstijų Sima aplankys?]
+
+---
+
+# Atsakymas 1
+
+Keturias!
+
+```{r, echo = FALSE, out.height = 300}
+
+knitr::include_graphics("template_files/IMG_20180728_131938.jpg")
+
+```
+
+.footnote.red[Kiek valstijų Sima aplankys?]
+
+---
